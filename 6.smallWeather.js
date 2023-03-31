@@ -1,6 +1,6 @@
 const prompt = require("prompt-sync")({sigint:true})
-let weather= prompt("is it 'rainy' or 'sunny' ")
-if(weather=="rainy"){
+let weather= prompt("is it 'rainy' or 'sunny' ")   //let , const and var taking user input 
+if(weather=="rainy"){                              //condition loop
     console.log("Grab your umbrella")
 }
 else if(weather=="sunny"){
