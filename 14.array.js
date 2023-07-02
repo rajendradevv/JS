@@ -16,3 +16,5 @@ console.log(groceries)
 // take one index more until you want to print
 // like in the below example i want to print upto 0-2 so i wrote slice(0,3)
 console.log(groceries.slice(0,3))
+console.log(groceries.indexOf('🍟'))
+console.log(groceries.length)
