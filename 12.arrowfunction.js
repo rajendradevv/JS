@@ -1,7 +1,7 @@
 //Arrow function
 //Arrow function with explicit return
 const sum =(a,b)=>{
-    return a+b
+    return a+b 
 }
 console.log(sum(10,10))
 
