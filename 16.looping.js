@@ -9,6 +9,9 @@ for (let i = 0; i < number.length; i++) {
     console.log(i, number[i])
 
 }
+for (const num of number){
+    console.log(num)
+} 
 const x = (number) => {
     let result = []
     for (const num of number) {
@@ -18,5 +21,7 @@ const x = (number) => {
     }
     return result
 }
+
 y=[1, 2, 3, 4, 5, 6]
 console.log(x(y))
+
